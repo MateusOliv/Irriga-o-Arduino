@@ -3,9 +3,7 @@
 Na atualidade agrícola, enfrentamos o desafio significativo da gestão ineficiente da irrigação, resultando em uso excessivo de recursos hídricos e impactos adversos na saúde das plantas. O modelo tradicional de irrigação não se adapta adequadamente às condições climáticas variáveis e às necessidades específicas das plantas, levando a desperdício de água e, em última instância, à ineficiência na produção agrícola.
 Como resposta a esse problema, esse projeto propõe a implementação de um sistema inovador de irrigação baseado em Arduino. Este sistema inteligente utiliza sensores de umidade do solo e de chuva conectados a um Arduino Uno. Com algoritmos programados, o Arduino processa dados ambientais, decidindo de forma autônoma quando e quanto irrigar. Através de um relé, o sistema controla uma válvula solenoide para liberar água apenas quando necessário, otimizando a irrigação de acordo com as condições específicas do solo. Essa solução não só reduz o desperdício de água, mas também se adapta dinamicamente às mudanças nas condições climáticas, promovendo uma gestão sustentável e eficiente da irrigação na agricultura.
 
-# Materiais e Métodos
-
-2.1. Automatizando a Sustentabilidade Agrícola
+# Automatizando a Sustentabilidade Agrícola
 Na atualidade agrícola, enfrentamos o desafio significativo da gestão ineficiente da irrigação, resultando em uso 
 excessivo de recursos hídricos e impactos adversos na saúde das plantas. O modelo tradicional de irrigação não se 
 adapta adequadamente às condições climáticas variáveis e às necessidades específicas das plantas, levando a 
@@ -17,7 +15,9 @@ irrigar. Através de um relé, o sistema controla uma válvula solenoide para li
 otimizando a irrigação de acordo com as condições específicas do solo. Essa solução não só reduz o desperdício de 
 água, mas também se adapta dinamicamente às mudanças nas condições climáticas, promovendo uma gestão 
 sustentável e eficiente da irrigação na agricultura.
-2.2. Implementação dos componentes 
+
+# Implementação dos componentes 
+
 Em um sistema de irrigação Arduino, os componentes principais são o Arduino, sensores, relé, válvula solenoide, 
 fonte de energia e, opcionalmente, um display LCD. O esquema de ligação envolve conectar os sensores (como o de 
 umidade do solo e de chuva) ao Arduino para coletar dados ambientais. O Arduino processa esses dados e, com base 
@@ -29,7 +29,8 @@ Esses componentes desempenham funções específicas em seu projeto de irrigaç�
 contribuindo para a automação e otimização da irrigação com base nas condições climáticas e nas necessidades das 
 plantas.
 
-Materiais:
+# Materiais
+
 *Arduino Uno R3: O Arduino Uno R3 é uma placa de desenvolvimento que utiliza o microcontrolador ATmega328P. 
 Ele serve como uma plataforma para programação e controle de dispositivos eletrônicos. O Arduino executa códigos 
 que controlam dispositivos conectados a ele, permitindo a automação de tarefas. 
@@ -73,7 +74,7 @@ usado para conectar fios à válvula solenoide.
 *Plugue Engate Rápido para Mangueira: Um plugue de engate rápido é um conector utilizado para acoplar 
 mangueiras de forma rápida e segura em sistemas de irrigação.
 
-#Implementação do software 
+# Implementação do software 
 
 Esse sistema de irrigação Arduino utilizara um software que comunicação com a Internet via protocolo MQTT, no 
 qual a irrigação programada ocorrerá às 8:30, 13:30 e 17:00. Nestes horários, a válvula solenoide será acionada pelo 
