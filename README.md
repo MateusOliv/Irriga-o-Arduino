@@ -82,4 +82,4 @@ Relê e ficará acionada permitindo o fluxo da água. Quando a água escoar pelo
 de chuva a irrigação será cessada e iniciará novamente no próximo horário agendado. Caso acabe a energia, o relógio 
 possuiu uma bateria interna que manterá o horário atualizado e dará continuidade nos ciclos de irrigação, porém, 
 sempre que a energia voltar o sistema iniciará a irrigação. 
-É necessário instalar as bibliotecas: LiquidCrystal I2C e RTClib no menu "Ferramentas" - "Gerenciar Bibliotecas...". 
+<br>É necessário instalar as bibliotecas: LiquidCrystal I2C e RTClib no menu "Ferramentas" - "Gerenciar Bibliotecas...". 
